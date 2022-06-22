@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, ol, li, dt, dd{ list-style: none;}
+
+a{color: #333; text-decoration: none;}
+a:hover{color: red;}
+
+/* common */
+
+.container{ width: 1200px; margin:0 auto;}
+
+.d-flex{ display: flex;}
+.aline-items-center{ align-items: center;}
+.justify-content-between{ justify-content: space-between;}
+
+.position-absolute{ position: absolute;}
+.position-relative{ position: relative;}
+
+.h100{ height: 100px;}
+.h200{ height: 200px;}
+.h300{ height: 300px;}
+
+/* header */
+
+/* 대메뉴글자 25px 크기로 설정하기, 대메뉴 글자 좌우여백 padding */
+#gnb > li > a{ font-size: 25px;}
+#gnb > li{padding: 0 20px;}
+
+/* 소메뉴 검정색 테두리 */
+#gnb ul {border: 1px solid black; min-width: 70px; padding: 0 0 0 20px; left: 20px;}
+
+
+
+/* footer */
